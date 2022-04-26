@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"></script>
 
