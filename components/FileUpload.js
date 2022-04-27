@@ -23,7 +23,7 @@ export default function FileUpload() {
 
       }
     }
-    request.open('POST', 'http://164.68.127.240:3000/api/files');
+    request.open('POST', 'https://api.encx.world/api/files');
     request.send(formData);
   };
 
